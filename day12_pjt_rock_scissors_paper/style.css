@@ -1,0 +1,34 @@
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.com-sel-img,
+.usr-sel-ul img {
+  border: 1px solid black;
+}
+
+.com-sel-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.usr-sel-ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.usr-sel-ul img:hover {
+  cursor: pointer;
+  transform: scale(1.1); /* 10% 확대 */
+  transition: transform 0.3s ease; /* 0.3초 동안 부드럽게 변화 */
+}
+
+.result-container {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
